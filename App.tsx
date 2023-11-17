@@ -8,7 +8,11 @@ import {
 } from 'react-native';
 
 import DuyTesst from './Testt/DuyTesst';
-
+import Login from './Layout/Login';
+import Register from './Layout/Register';
+import LoginWithPhoneNumber from './Layout/LoginWithPhoneNumber';
+import MainSanPham from './Layout/MainSanPham';
+import MainSanPhamShop from './Layout/MainSanPhamShop';
 
 
 
@@ -17,7 +21,11 @@ function App(): JSX.Element {
 
   return (
     <SafeAreaView >
-      <DuyTesst />
+      {/* <Login/> */}
+      {/*<Register/>*/}
+      {/* <LoginWithPhoneNumber/> */}
+      {/* <MainSanPham/> */}
+      <MainSanPhamShop/>
 
     </SafeAreaView>
   );
